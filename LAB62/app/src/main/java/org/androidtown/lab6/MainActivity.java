@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 catch (Throwable t) {
                     Toast.makeText(getApplicationContext(), "Exception: " + t.toString(), Toast.LENGTH_SHORT).show();
                 }
+                Toast.makeText(getApplicationContext(), "Done Reading SD '" + filePath +" '", Toast.LENGTH_SHORT).show();
             }
         });
 
